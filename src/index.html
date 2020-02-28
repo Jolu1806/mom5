@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Moment 5</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <div id="container">
+    <section>
+      <h1>Moment 5 - webbtjänster</h1>
+      <h2>De kurser jag har läst</h2>
+      <hr />
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Kurskod</th>
+            <th>Kursnamn</th>
+            <th>Progression</th>
+            <th>Kursplan</th>
+          </tr>
+        </thead>
+        <tbody id="coursesOutput">
+          <!-- HTML Output -->
+        </tbody>
+      </table>
+    </section>
+    <hr />
+    <section>
+      <h2>Lägg till kurs</h2>
+      <p id="msg"></p>
+      <label>
+        Kurskod: <br />
+        <input type="text" name="c_code" id="c_code" class="inputField" required />
+      </label>
+      <label class="rightLabel">
+        Kursnamn: <br />
+        <input type="text" name="c_name" id="c_name" class="inputField" required />
+      </label>
+      <label>
+        Progression: <br />
+        <input type="text" name="c_progression" id="c_progression" class="inputField" required />
+      </label>
+      <label class="rightLabel">
+        Kursplan: <br />
+        <input type="text" name="c_syllabus" id="c_syllabus" class="inputField" required />
+      </label>
+      <input type="submit" value="Lägg till kurs" id="formBtn" name="formBtn" />
+    </section>
+    <footer>
+      <p>DT173G - Webbutveckling III | JOLU1806 | Moment 5 - Webbtjänster</p>
+    </footer>
+  </div>
+  <!-- Div Slutdiv -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
